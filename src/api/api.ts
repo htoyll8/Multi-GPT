@@ -132,6 +132,7 @@ export const getChatCompletionStream = async (
   }
 
   const stream = response.body;
+  console.log("[API] Stream: ", stream);
   return stream;
 };
 
