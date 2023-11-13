@@ -128,7 +128,7 @@ const useSubmit = () => {
 
               // Check if the last message has content before adding a separator
               if (updatedMessages[updatedMessages.length - 1].content) {
-                updatedMessages[updatedMessages.length - 1].content += "\n\n"; // Using a newline and dashes as separator
+                updatedMessages[updatedMessages.length - 1].content += "\n***************************************************\n"; // Using a newline and dashes as separator
               }
 
               setChats(updatedChats);
